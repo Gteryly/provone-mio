@@ -6,8 +6,6 @@ MTENV="${HOME}/.moonraker-telegram-env"
 
 install_packages()
 {
-    echo "moonraker-telegram - Installation Script"
-
     PKGLIST="python3 python3-pip python3-setuptools python3-virtualenv"
     PKGLIST="${PKGLIST} bc"
     PKGLIST="${PKGLIST} imagemagick"
